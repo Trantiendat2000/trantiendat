@@ -1489,8 +1489,8 @@
   "resolved" "https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz"
   "version" "1.0.0"
 
-"bootstrap-social@5.1.1":
-  "integrity" "sha1-dTDGeK31bPj60/qCwp1NPl0CdQE="
+"bootstrap-social@^5.1.1":
+  "integrity" "sha512-26/oT2rVCyyj7QmbrAwR/L3lHZNDWUdlpjh6a+tnBtB75UnEBEx5btwi7aX505w8pTXvkil8vt0faRGSa5NOdQ=="
   "resolved" "https://registry.npmjs.org/bootstrap-social/-/bootstrap-social-5.1.1.tgz"
   "version" "5.1.1"
   dependencies:
@@ -2568,10 +2568,10 @@
   dependencies:
     "assert-plus" "^1.0.0"
 
-"dateformat@^4.5.1":
-  "integrity" "sha512-OD0TZ+B7yP7ZgpJf5K2DIbj3FZvFvxgFUuaqA/V5zTjAtAAXZ1E8bktHxmAGs4x5b7PflqA9LeQ84Og7wYtF7Q=="
-  "resolved" "https://registry.npmjs.org/dateformat/-/dateformat-4.5.1.tgz"
-  "version" "4.5.1"
+"dateformat@^4.6.3":
+  "integrity" "sha512-2P0p0pFGzHS5EMnhdxQi7aJN+iMheud0UhG4dlE1DLAlvL8JHjJJTX/CSm4JXwV0Ka5nGk3zC5mcb5bUQUxxMA=="
+  "resolved" "https://registry.npmjs.org/dateformat/-/dateformat-4.6.3.tgz"
+  "version" "4.6.3"
 
 "debug@^2.2.0", "debug@^2.3.3", "debug@^2.6.0", "debug@^2.6.6", "debug@^2.6.8", "debug@^2.6.9", "debug@2.6.9":
   "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
@@ -3765,8 +3765,8 @@
   "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.1.tgz"
   "version" "1.14.1"
 
-"font-awesome@~4.7", "font-awesome@4.7.0":
-  "integrity" "sha1-j6jPBBGhoxr9B7BtKQK7n8gVoTM="
+"font-awesome@^4.7.0", "font-awesome@~4.7":
+  "integrity" "sha512-U6kGnykA/6bFmg1M/oT9EkFeIYv7JlX3bozwQJWiiLz6L0w3F5vBVPxHlwyX/vtNq1ckcpRKOB9f2Qal/VtFpg=="
   "resolved" "https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz"
   "version" "4.7.0"
 
@@ -7633,7 +7633,7 @@
     "loose-envify" "^1.1.0"
     "prop-types" "^15.6.0"
 
-"react-router-dom@4.2.2":
+"react-router-dom@^4.2.2":
   "integrity" "sha512-cHMFC1ZoLDfEaMFoKTjN7fry/oczMgRt5BKfMAkTu5zEuJvUiPp1J8d0eXSVTnBh6pxlbdqDhozunOOLtmKfPA=="
   "resolved" "https://registry.npmjs.org/react-router-dom/-/react-router-dom-4.2.2.tgz"
   "version" "4.2.2"
