@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import About from "./AboutComponent";
 
 function Footer(props) {
   return (
