@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import {
   Navbar,
-  NavbarBrand,
   Nav,
+  NavbarBrand,
   NavbarToggler,
-  Collapse,
   NavItem,
+  Collapse,
   Jumbotron,
 } from "reactstrap";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 class Header extends Component {
   constructor(props) {
@@ -26,12 +26,12 @@ class Header extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar dark expand="md">
+        <Navbar dark expand="md" className="bg-primary">
           <div className="container">
             <NavbarToggler onClick={this.toggleNav} />
             <NavbarBrand className="mr-auto" href="/">
               <img
-                srt="assets/images/logo.png"
+                src="assets/images/logo.png"
                 height="30"
                 width="41"
                 alt="Lab05"
@@ -40,43 +40,24 @@ class Header extends Component {
             <Collapse isOpen={this.state.isNavOpen} navbar>
               <Nav navbar>
                 <NavItem>
-                  <NavLink className="nav-link" to="/home">
-                    <span className="fa fa-home fa-lg"></span> Home
+                  <NavLink className="nav-link" to="/staff">
+                    <span className="fa fa-group fa-lg"></span> Nhân Viên
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" to="/aboutus">
-                    <span className="fa fa-info fa-lg"></span> About Us
+                  <NavLink className="nav-link" to="/dept">
+                    <span className="fa fa-university fa-lg"></span> Phòng Ban
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" to="/menu">
-                    <span className="fa fa-list fa-lg"></span> Menu
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink className="nav-link" to="/contactus">
-                    <span className="fa fa-address fa-lg"></span> Contact Us
+                  <NavLink className="nav-link" to="/salary">
+                    <span className="fa fa-money fa-lg"></span> Bảng Lương
                   </NavLink>
                 </NavItem>
               </Nav>
             </Collapse>
           </div>
         </Navbar>
-        <Jumbotron>
-          <div className="container">
-            <div className="row row-header">
-              <div className="col-12 col-sm-6">
-                <h1>Lab 05</h1>
-                <p>
-                  we take inspiration from the World's best cuisines, and create
-                  a unique fusion experienc. Ourlipsmacking creations will
-                  tickle you culinary senses!
-                </p>
-              </div>
-            </div>
-          </div>
-        </Jumbotron>
       </React.Fragment>
     );
   }
